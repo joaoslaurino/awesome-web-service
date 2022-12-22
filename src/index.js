@@ -1,5 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Chart from './Chart';
+import { createRoot } from 'react-dom/client';
+import App from './App';
 
-ReactDOM.render(<Chart/>, document.getElementById('root'));
+const container = document.getElementById('root')
+const root = createRoot(container)
+
+root.render(<App/>)
