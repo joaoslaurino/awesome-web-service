@@ -1,6 +1,7 @@
 import React from "react";
 import "./Coin.css";
-// import { useHistory } from "react-router-dom";
+
+// Aqui definimos as funções que lidam com o mouse hover
 
 function handleMouseOver(e) {
     e.currentTarget.classList.add("mouseHover");
@@ -10,14 +11,16 @@ function handleMouseOut(e) {
     e.currentTarget.classList.remove("mouseHover");
 }
 
+// Aqui efetuamos o mapeamento dos dados recebidos da API 
+
 const Coin = ({ id, name, image, symbol, price, volume, onPriceChange, marketcap }) => {
     return (
-        <div className="container" onMouseOver={e => handleMouseOver(e)} onMouseOut={e => handleMouseOut(e)}>
+        <div className="unity" onMouseOver={e => handleMouseOver(e)} onMouseOut={e => handleMouseOut(e)}>
             <div className="row">
                 <a href={`/charts?id=${id}`} target="_self">
                     <div className="coin">
                         <img src={image} alt="crypto" />
-                        <h1>{name}</h1>
+                        <h1 className="name">{name}</h1>
                         <p className="symbol">{symbol}</p>
                     </div>
                 </a>
@@ -32,6 +35,7 @@ const Coin = ({ id, name, image, symbol, price, volume, onPriceChange, marketcap
                 </div>
             </div>
         </div>
+        
     );
 };
 
