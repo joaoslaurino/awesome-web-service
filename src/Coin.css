@@ -1,6 +1,7 @@
-.container {
+.unity {
     display: flex;
     justify-content: center;
+    /* background-color: aqua; */
 }
 
 .row {
@@ -8,10 +9,14 @@
     flex-direction: row;
     justify-items: start;
     align-items: center;
-    height: 80px;
+    height: 60px;
     border-bottom: 1px solid #d7d7d7;
-    width: 900px;
+    width: 1000px;
     /* overflow: hidden; */
+}
+
+.space {
+    height: 100px;
 }
 
 .coin {
@@ -24,11 +29,12 @@
 .coin h1 {
     font-size: 16px;
     width: 150px;    
+    text-underline-offset: 0px;
 }
 
 .coin img {
-    height: 30px;
-    width: 30px;
+    height: 25px;
+    width: 25px;
     margin-right: 10px;
 }
 
@@ -64,5 +70,10 @@
 }
 
 .green {
-    color: #11d811;
+
+    color: #00e400;
+}
+
+.mouseHover {
+    background-color: var(--hover-color);
 }

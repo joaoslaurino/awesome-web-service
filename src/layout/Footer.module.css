@@ -1,0 +1,39 @@
+.footerContainer {
+    position: relative;   
+}
+
+.footer {
+    background-color: var(--search-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    height: 80px;
+    position: absolute;
+    width: 100%;
+    bottom: 0%;
+    
+    /* padding: 10px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(136, 135, 135);
+    color: white;
+    text-align: center; */
+}
+
+.social_list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.social_list li {
+    margin: 0 0.5em;
+}
+
+.social_list li:hover {
+    color: rgb(255, 7, 7);
+}
+
+

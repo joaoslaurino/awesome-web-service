@@ -1,0 +1,42 @@
+.navbar {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+    padding: 0em;
+    border-bottom: 1px solid #757575;
+}
+
+ .logo {
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 5px;
+  } 
+
+.list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    /* background-color: aqua; */
+}
+
+.item {
+    /* background-color: aqua; */
+    margin-right: 1em;
+}
+
+.item a {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.item a:hover {
+    color: rgb(201, 145, 42);
+    text-decoration: none;
+}
+
+.textColor {
+    /* background-color: aqua; */
+}
+
