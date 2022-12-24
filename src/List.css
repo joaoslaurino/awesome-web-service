@@ -18,7 +18,7 @@ body {
     background-color: var(--primary-color);
     color: var(--secondary-color);
     /* background-color: aqua; */
-    min-height: 1000px;
+    min-height: 900px;
 }
 
 ul {
@@ -40,7 +40,7 @@ ul {
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    width: 800px;
+    width: 900px;
     height: 40px;
     background-color: var(--search-color);
     color: var(--secondary-color);
