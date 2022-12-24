@@ -40,7 +40,7 @@ ul {
     display: flex;
     flex-direction: row;
     /* justify-content: space-between; */
-    width: 900px;
+    width: 800px;
     height: 40px;
     background-color: var(--search-color);
     color: var(--secondary-color);
