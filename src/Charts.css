@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 :root {
     --primary-color: #29282e;
     --secondary-color: #fff;
@@ -146,3 +147,153 @@
     color: rgb(0, 224, 0);
 }
 
+=======
+:root {
+    --primary-color: #29282e;
+    --secondary-color: #fff;
+    --hover-color: #38383b;
+    --search-color: #414044;
+}
+
+.screenMode {
+    --primary-color: #f8f8f8;
+    --secondary-color: #000;
+    --hover-color: #e6e6e6;
+    --search-color: #cecdcd;
+}
+
+.coinInfo {
+    height: 100vh;
+    width: 100%;
+}
+
+.chartGroup {
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 150px;
+    /* background-color: #fff; */
+    width: 100%;
+}
+
+.buttonsGroup {
+    margin-top: 1%;
+    margin-left: 8%;
+    margin-bottom: 1%;
+}
+
+.chartButtons {
+    align-self: right;
+    padding: 7px;
+    border-radius: 8px;
+    border: 1px solid #757575;
+    background-color: var(--primary-color) ;
+    color: var(--secondary-color);
+    font-family: 'Neutro', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.mouseHover {
+    background-color: var(--hover-color);
+}
+
+.darkMode {
+    width: 29px;
+    align-self: right;
+    padding: 4px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.info {
+    display : flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+    margin-left: 8%;
+    margin-right: 8%;
+    border-radius: 8px;
+    border: 1px solid #757575;
+    /* background-color: #fff; */
+}
+
+.chart {
+    margin-top: 1%;
+    margin-left: 1%;
+    font-family: 'Neutro', sans-serif;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);  
+}
+
+.infoGroup {
+    display : flex;
+    flex-direction: column;
+}
+
+.infoTittle {
+    width: 531px;
+    /* background-color: aqua; */
+    text-align: center;
+    font-family: 'Neutro', sans-serif;
+    margin-top: 25px;
+    margin-bottom: 40px;
+    margin-left: 9%;
+}
+
+.infoItem {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: 4%;
+    margin-right: 2%;
+    /* border-bottom: 1px solid #757575; */
+    /* background-color: #fff; */
+}
+
+.infoName {
+    width: 300px;
+    /* background-color: aqua; */
+    color: #969696;
+}
+
+.infoValue {
+    font-weight: bold;
+    width: 317px;
+    /* background-color: violet; */
+    text-align: right;
+}
+
+.image {
+    /* background-color: violet; */
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.time {
+    font-size: 12px
+}
+
+    /* background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-family: 'Neutro', sans-serif;
+    font-size: 12px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #757575;
+    margin: 1px; */
+
+.infoRed {
+    width: 317px;
+    text-align: right;
+    color: red;
+}
+
+.infoGreen {
+    width: 317px;
+    text-align: right;
+    color: rgb(0, 224, 0);
+}
+
+>>>>>>> ff6da474b382f8f656dccdb59e11e2f3ab40e6d9

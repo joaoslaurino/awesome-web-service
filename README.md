@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 Aplicação desenvolvida para a disciplina de Sistemas Distribuídos, utilizando JavaScript e React.
 
 Para a execução da aplicação é necessário ter o node instalado na máquina e executar os seguintes comandos:
@@ -6,4 +7,14 @@ Para a execução da aplicação é necessário ter o node instalado na máquina
 
 -- yarn install
 
+=======
+Aplicação desenvolvida para a disciplina de Sistemas Distribuídos, utilizando JavaScript e React.
+
+Para a execução da aplicação é necessário executar os seguintes comandos:
+
+-- npm install yarn
+
+-- yarn install
+
+>>>>>>> ff6da474b382f8f656dccdb59e11e2f3ab40e6d9
 -- yarn start

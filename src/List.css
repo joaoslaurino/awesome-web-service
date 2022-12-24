@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing : border-box;
     margin: 0;
@@ -154,4 +155,162 @@ ul {
     border: none;
     background-color: var(--search-color);
     color: var(--secondary-color);
+=======
+* {
+    box-sizing : border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Neutro', sans-serif;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    /* background-color: aqua; */
+    min-height: 1000px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.coins {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+}
+
+.mapping {
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 900px;
+    height: 40px;
+    background-color: var(--search-color);
+    color: var(--secondary-color);
+}
+
+.mapName {
+    align-self: center;
+    margin-top: 2.5%;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    /* background-color: red; */
+    margin-left: 4.5%;
+}
+
+.mapName h1 {
+    font-size: 16px;
+}
+
+.mapSymbol {
+    align-self: center;
+    margin-top: 2.5%;
+    width: 70px;
+    height: 40px;
+    margin-left: 9%;
+    text-align: center;
+    /* background-color: blue; */
+}
+
+.mapSymbol h1 {
+    font-size: 16px;
+}
+
+.mapPrice {
+    align-self: center;
+    margin-top: 2.5%;
+    width: 50px;
+    height: 40px;
+    margin-left: 9.7%;
+    text-align: center;
+    /* background-color: green; */
+}
+
+.mapPrice h1 {
+    font-size: 16px;
+}
+
+.mapVolume {
+    align-self: center;
+    margin-top: 2.5%;
+    width: 60px;
+    height: 40px;
+    margin-left: 11%;
+    text-align: center;
+    /* background-color: pink; */
+}
+
+.mapVolume h1 {
+    font-size: 16px;
+}
+
+.mapPriceChange {
+    align-self: center;
+    margin-top: 2.5%;
+    width: 110px;
+    height: 40px;
+    margin-left: 6.5%;
+    text-align: center;
+    /* background-color: yellow; */
+}
+
+.mapPriceChange h1 {
+    font-size: 16px;
+}
+
+.mapMarketCap {
+    align-self: center;
+    margin-top: 2.5%;
+    margin-right: 4%;
+    width: 90px;
+    height: 40px;
+    margin-left: 7%;
+    text-align: center;
+    /* background-color: purple; */
+}
+
+.mapMarketCap h1 {
+    font-size: 16px;
+}
+
+.search {
+    margin-bottom: 64px;
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.text {
+    margin-bottom: 32px;
+    text-align: center;
+
+}
+
+.input {
+    padding-left: 13px;
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: var(--search-color);
+    color: var(--secondary-color);
+>>>>>>> ff6da474b382f8f656dccdb59e11e2f3ab40e6d9
 }
